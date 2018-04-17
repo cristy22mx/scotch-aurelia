@@ -3,7 +3,7 @@ import Auth0 from 'auth0-js';
 export class AuthService {
   constructor() {
     this.auth0 = new Auth0({
-      domain:       'cristy22mx.github.io',
+      domain:       'cristy22mx.github.io/scotch-aurelia',
       clientID:     '	7d604c82d5e34eacbfbdc849170dfaed',
       callbackURL:  'https://cristy22mx.github.io/scotch-aurelia/login/callback',
       callbackOnLocationHash: true
