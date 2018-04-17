@@ -5,7 +5,7 @@ export class AuthService {
     this.auth0 = new Auth0({
       domain:       'https://cristy22mx.github.io/scotch-aurelia/',
       clientID:     '	7d604c82d5e34eacbfbdc849170dfaed',
-      callbackURL:  'https://cristy22mx.github.io/scotch-aurelia/',
+      callbackURL:  'https://cristy22mx.github.io/scotch-aurelia/login/callback',
       callbackOnLocationHash: true
     });
   }
