@@ -3,8 +3,8 @@ import Auth0 from 'auth0-js';
 export class AuthService {
   constructor() {
     this.auth0 = new Auth0({
-      domain:       'chris92.auth0.com',
-      clientID:     'n99H6yUSrrX44lHrVeqpvlRzgQEBP8gV',
+      domain:       'https://cristy22mx.github.io/scotch-aurelia/',
+      clientID:     '	7d604c82d5e34eacbfbdc849170dfaed',
       callbackURL:  'http://localhost:8080/#/',
       callbackOnLocationHash: true
     });
